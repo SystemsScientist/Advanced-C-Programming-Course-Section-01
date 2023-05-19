@@ -1,0 +1,118 @@
+
+Section 01: The C99 Standard
+-----------------------------------------------------------------------------
+
+Overview
+
+	- we have already discussed some concepts of the C programming
+	  language (beginner class) that were included in the C99 standard
+
+		+ bool data type - stdbool.h (added true/false keywords)
+
+		+ variable length arrays
+
+		+ single line comments
+
+	- however, we have mainly focused on the C89 standard in the
+	  beginner class
+
+	- I want to be clear that some concepts in this class will
+	  include functionality from the C99 standard
+
+
+History
+
+	- C99 is a revised standard for the C programming language
+
+		+ refines and expands the capabilities of Standard C
+
+	- C99 has not been widely adopted
+
+		+ not all popular C compilers support it
+
+		+ of the compilers that do offer C99 support, most
+		  support only a subset of the language
+
+	- so, we do not focus on many of the additions added for 
+	  C99
+
+		+ this is why the focus is mainly on C89
+
+	- C89 is almost universally supported
+
+
+New Features Added that We will Use I
+
+	- macros with a variable number of arguments
+
+	- C99 allows the use of sophisticated numbers (complex.h)
+
+		+ _Complex
+
+			- used to declare complex floating type 
+			  variables to store mathematical complex
+			  numbers
+
+		+ _Imaginary
+
+			- declare imaginary floating type variables
+			  to store mathematical imaginary numbers
+
+	- designmated initializers
+
+		+ allow you to initialize the elements of an array,
+		  union, or struct explicitly by subscript or name
+
+	- restricted pointers
+
+		+ a type qualifier that can be used only for poitners
+
+
+New Features Added that We Will Use II
+
+	- new comment techniques
+
+		+ C99 allows to put comment using a double front
+		  slash (//)
+
+	- inline functions
+
+		+ supplies a hint for the compiler to perform
+		  optimizations
+
+	- variable length arrays
+
+		+ array dimension has to be declared in C89
+
+		+ C99 permits declaration of array dimensions
+		  using integer variables or any valid integer
+		  expressions
+
+	- flexible array members
+
+		+ allows us to declare an array of unspecified
+		  length as the last member of a struct
+
+
+New Features Added that We Will Use III
+
+	- declaration of variables
+
+		+ it is now legal to declare variables at any
+		  point of the program within the curly braces
+		  of main() function
+
+		+ very obvious in loops
+
+	- required in C89 (all variables be declared at the 
+	  start of a block)
+
+	  int i;
+	  for(i = 0; i < 10; i++)
+
+	- new in C99 (variable can be declared anywhere)
+
+	  for(int i = 0; i < 10; i++)
+
+
+
