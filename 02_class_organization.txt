@@ -1,0 +1,46 @@
+
+Section 01: Class Organization
+-----------------------------------------------------------------------------------
+
+Class Organization
+
+	- lectures are designed around explaining the way and providing
+	  the how
+
+		+ a complete learning experience
+
+		+ understand the programming language as a whole
+
+		+ lacking in most Udemy courses
+
+	- powerpoint slides
+
+		+ a way to present abstract concepts and definitions
+		  that I am not able to demonstrate in code (as easily)
+
+		+ not just reading from slides!
+
+			- providing insight via experience
+
+			- providing thorough explanations
+
+
+Demonstrations of Code
+
+	- demonstrations in the IDE (Integrated Development Environment)
+
+		+ code examples (concrete, real-world)
+
+		+ more practical/hands-on learning
+
+	- challenges (coding assignment/projects)
+
+		+ a way for you to assess your own learning
+
+			- code alongs - walking through the code of a
+			  solution for a particular challenge
+
+			- all source code provided in class
+
+
+
